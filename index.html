@@ -2,14 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alhan IT Solutions</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f4f6f9;
+        color: #333;
+      }
+      header {
+        background-color: #1d4ed8;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header img {
+        height: 60px;
+        vertical-align: middle;
+      }
+      header h1 {
+        display: inline;
+        margin-left: 15px;
+        font-size: 24px;
+        vertical-align: middle;
+      }
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+      }
+      h2 {
+        color: #1d4ed8;
+        margin-top: 30px;
+      }
+      @media (max-width: 600px) {
+        header h1 {
+          display: block;
+          margin: 10px 0 0;
+        }
+        header img {
+          height: 50px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <!-- 👇 Logo image inserted below -->
-    <img src="logo.png" alt="Alhan IT Solutions Logo" style="height: 100px; margin: 20px auto; display: block;">
+    <header>
+      <img src="logo.png" alt="Alhan IT Solutions Logo">
+      <h1>Alhan IT Solutions</h1>
+    </header>
 
-    <div id="root"></div>
+    <div class="container">
+      <p><strong>Smart, Secure, Scalable IT Solutions for Small Businesses</strong></p>
+
+      <h2>About Us</h2>
+      <p>
+        Alhan IT Solutions is a student-led Canadian IT consulting company helping startups and small businesses build secure, scalable, and modern IT infrastructure.
+      </p>
+
+      <h2>Our Services</h2>
+      <ul>
+        <li>Network Design & Implementation</li>
+        <li>Website Development & Hosting</li>
+        <li>IT Support & Managed Services</li>
+        <li>Cybersecurity Audits</li>
+        <li>Cloud & Virtualization Consulting</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: alhanpathan59@gmail.com</p>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
