@@ -1,81 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alhan IT Solutions</title>
+    <title>GridEcho - IT Solutions That Scale With You</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
-        line-height: 1.6;
-        background-color: #f4f6f9;
+        background-color: #f9fafb;
         color: #333;
       }
       header {
-        background-color: #1d4ed8;
+        background-color: #1e3a8a;
         color: white;
-        padding: 20px;
+        padding: 40px 20px;
         text-align: center;
       }
       header img {
         height: 60px;
-        vertical-align: middle;
+        margin-bottom: 10px;
       }
       header h1 {
-        display: inline;
-        margin-left: 15px;
-        font-size: 24px;
-        vertical-align: middle;
+        font-size: 32px;
+        margin: 0;
       }
-      .container {
-        max-width: 900px;
+      .hero {
+        background-color: #e0f2fe;
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .hero h2 {
+        font-size: 28px;
+        color: #0f172a;
+      }
+      .hero p {
+        font-size: 18px;
+        margin: 10px 0 20px;
+      }
+      .cta-button {
+        background-color: #1d4ed8;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      .section {
+        max-width: 960px;
         margin: auto;
-        padding: 20px;
+        padding: 40px 20px;
       }
-      h2 {
+      .section h2 {
         color: #1d4ed8;
-        margin-top: 30px;
+        margin-bottom: 20px;
       }
-      @media (max-width: 600px) {
-        header h1 {
-          display: block;
-          margin: 10px 0 0;
-        }
-        header img {
-          height: 50px;
-        }
+      .services ul {
+        list-style: none;
+        padding: 0;
+      }
+      .services li {
+        margin-bottom: 15px;
+        padding-left: 20px;
+        position: relative;
+      }
+      .services li::before {
+        content: '✔';
+        color: #1d4ed8;
+        position: absolute;
+        left: 0;
+      }
+      footer {
+        background-color: #1e293b;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
       }
     </style>
   </head>
   <body>
     <header>
-      <img src="logo.png" alt="Alhan IT Solutions Logo">
-      <h1>Alhan IT Solutions</h1>
-    </header>
+      <img src="logo.png" alt="GridEcho Logo">
+      <h1>GridEcho</h1>
+    </header><section class="hero">
+  <h2>Empowering Your Business with Scalable IT Solutions</h2>
+  <p>Secure, Reliable, and Tailored IT Services for Your Growth</p>
+  <a href="#contact" class="cta-button">Schedule a Free Consultation</a>
+</section>
 
-    <div class="container">
-      <p><strong>Smart, Secure, Scalable IT Solutions for Small Businesses</strong></p>
+<section class="section about">
+  <h2>About GridEcho</h2>
+  <p>GridEcho is a Canadian-based IT consulting company dedicated to delivering cutting-edge technology solutions to help businesses grow. We specialize in network design, cybersecurity, cloud solutions, and ongoing IT support—all customized to your unique needs.</p>
+</section>
 
-      <h2>About Us</h2>
-      <p>
-        Alhan IT Solutions is a student-led Canadian IT consulting company helping startups and small businesses build secure, scalable, and modern IT infrastructure.
-      </p>
+<section class="section services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Managed IT Services – Proactive monitoring and support</li>
+    <li>Cybersecurity – Protecting your digital assets</li>
+    <li>Cloud Solutions – Scalable and flexible cloud services</li>
+    <li>Network Infrastructure – Design and implementation</li>
+    <li>IT Consulting – Strategic planning and advice</li>
+  </ul>
+</section>
 
-      <h2>Our Services</h2>
-      <ul>
-        <li>Network Design & Implementation</li>
-        <li>Website Development & Hosting</li>
-        <li>IT Support & Managed Services</li>
-        <li>Cybersecurity Audits</li>
-        <li>Cloud & Virtualization Consulting</li>
-      </ul>
+<section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: alhanpathan59@gmail.com</p>
+</section>
 
-      <h2>Contact</h2>
-      <p>Email: alhanpathan59@gmail.com</p>
-    </div>
+<footer>
+  <p>&copy; 2025 GridEcho. All rights reserved.</p>
+</footer>
 
-    <script src="main.js"></script>
   </body>
 </html>
