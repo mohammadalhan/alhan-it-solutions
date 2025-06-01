@@ -1,119 +1,141 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GridEcho - IT Solutions That Scale With You</title>
+    <title>GridEcho - IT Consulting</title>
     <style>
       body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
-        padding: 0;
-        background-color: #f9fafb;
-        color: #333;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0f172a;
+        color: #f1f5f9;
       }
       header {
-        background-color: #1e3a8a;
-        color: white;
-        padding: 40px 20px;
-        text-align: center;
-      }
-      header img {
-        height: 60px;
-        margin-bottom: 10px;
+        background-color: #1e293b;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       header h1 {
-        font-size: 32px;
         margin: 0;
+        font-size: 24px;
+      }
+      nav a {
+        color: #f1f5f9;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 500;
       }
       .hero {
-        background-color: #e0f2fe;
-        padding: 50px 20px;
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 60px 40px;
+        background-image: radial-gradient(circle at top left, #1d4ed8 0%, #0f172a 60%);
       }
-      .hero h2 {
-        font-size: 28px;
-        color: #0f172a;
+      .hero-left {
+        max-width: 500px;
       }
-      .hero p {
+      .hero-left h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+      .hero-left p {
         font-size: 18px;
-        margin: 10px 0 20px;
+        margin-bottom: 30px;
+        color: #cbd5e1;
       }
-      .cta-button {
+      .hero-left a {
+        display: inline-block;
         background-color: #1d4ed8;
         color: white;
         padding: 12px 24px;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
         text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
       }
-      .section {
-        max-width: 960px;
-        margin: auto;
-        padding: 40px 20px;
+      .hero-right {
+        background-color: #1e293b;
+        border-radius: 12px;
+        padding: 20px;
+        max-width: 300px;
       }
-      .section h2 {
-        color: #1d4ed8;
-        margin-bottom: 20px;
+      .hero-right h3 {
+        margin-top: 0;
+        color: #ffffff;
+        font-size: 20px;
       }
-      .services ul {
+      .hero-right ul {
         list-style: none;
-        padding: 0;
+        padding-left: 0;
       }
-      .services li {
-        margin-bottom: 15px;
-        padding-left: 20px;
-        position: relative;
+      .hero-right li {
+        margin-bottom: 12px;
+        color: #93c5fd;
+        font-size: 16px;
       }
-      .services li::before {
-        content: '✔';
-        color: #1d4ed8;
-        position: absolute;
-        left: 0;
+      .about {
+        background-color: #f8fafc;
+        color: #0f172a;
+        padding: 40px;
+        border-radius: 12px;
+        margin: 40px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .about h2 {
+        margin-top: 0;
       }
       footer {
-        background-color: #1e293b;
-        color: white;
         text-align: center;
         padding: 20px;
+        background-color: #1e293b;
+        color: #cbd5e1;
         font-size: 14px;
       }
     </style>
   </head>
   <body>
     <header>
-      <img src="logo.png" alt="GridEcho Logo">
       <h1>GridEcho</h1>
-    </header><section class="hero">
-  <h2>Empowering Your Business with Scalable IT Solutions</h2>
-  <p>Secure, Reliable, and Tailored IT Services for Your Growth</p>
-  <a href="#contact" class="cta-button">Schedule a Free Consultation</a>
-</section>
+      <nav>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="mailto:alhanpathan59@gmail.com" style="background-color:#1d4ed8; padding:8px 16px; border-radius:6px;">Get a Quote</a>
+      </nav>
+    </header>
 
-<section class="section about">
-  <h2>About GridEcho</h2>
-  <p>GridEcho is a Canadian-based IT consulting company dedicated to delivering cutting-edge technology solutions to help businesses grow. We specialize in network design, cybersecurity, cloud solutions, and ongoing IT support—all customized to your unique needs.</p>
-</section>
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Smart. Secure. Scalable IT Solutions.</h2>
+        <p>Helping businesses grow with powerful, tailored technology infrastructure.</p>
+        <a href="mailto:alhanpathan59@gmail.com">Learn More</a>
+      </div>
+      <div class="hero-right">
+        <h3>Our Services</h3>
+        <ul>
+          <li>Network Design</li>
+          <li>Cybersecurity</li>
+          <li>Cloud Solutions</li>
+          <li>Web Development</li>
+          <li>IT Support</li>
+        </ul>
+      </div>
+    </section>
 
-<section class="section services">
-  <h2>Our Services</h2>
-  <ul>
-    <li>Managed IT Services – Proactive monitoring and support</li>
-    <li>Cybersecurity – Protecting your digital assets</li>
-    <li>Cloud Solutions – Scalable and flexible cloud services</li>
-    <li>Network Infrastructure – Design and implementation</li>
-    <li>IT Consulting – Strategic planning and advice</li>
-  </ul>
-</section>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>GridEcho is an IT consulting company dedicated to driving innovation, delivering exceptional service, and fostering seamless connectivity. We provide services tailored to businesses looking for reliable, secure, and scalable infrastructure solutions.</p>
+    </section>
 
-<section class="section contact" id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: alhanpathan59@gmail.com</p>
-</section>
-
-<footer>
-  <p>&copy; 2025 GridEcho. All rights reserved.</p>
-</footer>
-
+    <footer>
+      &copy; 2025 GridEcho. All rights reserved.
+    </footer>
   </body>
 </html>
